@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans",
+  sans-serif; 
+  font-size: 20px;
+  color: #444;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+}
+ 
+nav, footer {
+  padding: 1% 0;
+  background-color: #55CDFC;
+}
+
+.nav-items a {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+    padding: 5px;
+    margin: 5px;
+  }
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10; 
+  padding: 0;
+  
+}
+
+.nav-items {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.my-links{
+  background-color: #FFFFFF;
+}
+
+.my-links:hover{
+  background-color: #F7A8B8;
+  transition: all 1s ease;
+  transform: scale(1);
+}
+
+
+/*.my-github{
+  background-color: #FFFFFF;
+}
+
+.my-linkedin{
+  background-color: #F7A8B8;
+}*/
+
+
+h1{
+  font-size: 30px;
+  padding: 20px;
+}
+
+
+
+.bio{
+  text-align: center;
+}
+
+h2{
+  width: 80%;
+  font-size: 16px;
+  margin: auto;
+}
+
+
+
+img{
+  width: 400px;
+  height: 225;
+  border: solid 1px black;
+}
+
+.project a{
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: initial;
+  padding: 5px;
+}
+
+.nav-elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+  
+.nav-elements p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+  
+  
+header {
+  padding: 12% 0;
+}
+  
+section {
+  min-height: 200px;
+    
+  padding: 6% 0;
+  background-color: #55CDFC;
+}
+  
+section:nth-child(4n+0){
+  background-color: #ffffff;  
+}
+  
+section:nth-child(4n+1) {
+  background-color: #F7A8B8;
+}
+
+section:nth-child(4n+2) {
+  background-color: #55CDFC;
+}
+ 
+section:nth-child(4n+3){
+  background-color: #F7A8B8;
+}
+
+
+  /*smaller or equal to a phone screen*/
+@media screen and (max-width: 414px){
+  footer address{
+    margin: 0;
+    font-size: 16px;
+    width: 100%;
+  }
+
+  img{
+    width: 300px;
+  }
+
+  h2{
+    width: 80%;
+    font-size: 16px;
+  }
+}
+
+  /*bigger than a phone screen*/
+@media screen and (min-width: 415px){
+  footer address{
+    font-size: 22px;
+  }
+}
+
+  /*bigger than a tablet screen*/
+@media screen and (min-width: 1024px){
+  h2{
+    font-size: 24px;
+    width: 800px;
+  }
+
+}
+
