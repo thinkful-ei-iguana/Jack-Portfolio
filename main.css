@@ -14,7 +14,7 @@ body {
  
 nav, footer {
   padding: 1% 0;
-  background-color: #55CDFC;
+  background-color: grey;
 }
 
 .nav-items a {
@@ -45,11 +45,11 @@ nav {
 }
 
 .my-links{
-  background-color: #FFFFFF;
+  background-color: gray;
 }
 
 .my-links:hover{
-  background-color: #F7A8B8;
+  background-color: grey;
   transition: all 1s ease;
   transform: scale(1);
 }
