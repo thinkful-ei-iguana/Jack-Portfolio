@@ -124,7 +124,7 @@ section:nth-child(4n+0){
 }
     
 section:nth-child(4n+1) {
-  background-color: #55CDFC;
+  background-color: #ffffff;
 }
   
 section:nth-child(4n+2) {
@@ -132,7 +132,8 @@ section:nth-child(4n+2) {
 }
    
 section:nth-child(4n+3){
-    background-color: #ffffff;
+  background-color: #55CDFC;
+    
 }
 
 footer address{
