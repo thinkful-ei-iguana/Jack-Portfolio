@@ -119,19 +119,20 @@ section {
 }
   
 section:nth-child(4n+0){
-  background-color: #ffffff;  
-}
-  
-section:nth-child(4n+1) {
   background-color: #F7A8B8;
+      
 }
-
-section:nth-child(4n+2) {
+    
+section:nth-child(4n+1) {
   background-color: #55CDFC;
 }
- 
+  
+section:nth-child(4n+2) {
+    background-color: #F7A8B8;
+}
+   
 section:nth-child(4n+3){
-  background-color: #F7A8B8;
+    background-color: #ffffff;
 }
 
 footer address{
